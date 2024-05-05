@@ -1,0 +1,70 @@
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Distribuir el espacio entre las filas */
+}
+
+.card {
+    width: calc(25% - 20px); /* Ajustar el ancho de cada tarjeta y dejar espacio entre ellas */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    border: 1px solid #ddd; /* Borde para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
+
+.card img {
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Ajustar la imagen al contenedor manteniendo su relación de aspecto */
+}
+
+.card .card-body {
+    padding: 10px; /* Espaciado interno para el contenido */
+}
+
+
+.card .card-body h3 {
+    font-size: 18px; /* Tamaño de fuente para el título */
+    margin-bottom: 5px;
+    margin-top: 5px;    
+}
+
+.card .card-body p {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    color: #00ff08; /* Color del texto */
+    font-weight: bold;
+    margin: 5px 10px;
+
+}
+
+.rating {
+    color: #f1c40f; 
+    font-size: 24px; 
+}
+
+.star {
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+
+a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 1px; 
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: red; 
+}
+
+
+

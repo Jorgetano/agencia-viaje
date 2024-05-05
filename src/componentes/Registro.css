@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background: #DCEAED;
+    height: 100%;
+  }
+  
+  body {
+    background:
+      linear-gradient(
+        rgba(220, 234, 237, .7),
+        rgba(220, 234, 237, .7)
+      ),
+      url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+  }
+  
+  .container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  h1 {
+    font-family: font-primary;
+    color: color-primary;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+  }
+  
+  .form-background {
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 32px;
+    align-self: center;
+    box-shadow: 0px 15px 88px -37px rgba(0,0,0,0.17);
+  } 
+  
+  form {
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid color-light-gray;
+    padding: 15px 20px;
+    color: #8498AF;
+    font-size: .9rem;
+    transition: .4s;
+  }
+  
+  [type="submit"] {
+    background-color: blue;
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    transition: .4s;
+    font-family: font-primary;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+  }
+  
+  [type="submit"]:hover {
+    background-color: color-primary-dark;
+    cursor: pointer;
+  }
+  
+  .sign-up-divider {
+    font-family: font-primary;
+    text-align: center;
+    color: #C4C8D4;
+    font-size: .8rem;
+    letter-spacing: .5px;
+    padding: 24px 0;
+  }
+  
+  .sign-up-divider::before,
+  .sign-up-divider::after {
+    content: '';
+    display: inline-block;
+    width: 27%;
+    margin: 0 5%;
+    height: 1px;
+    background: color-light-gray;
+    vertical-align: middle;
+  }
+  
+  .social-media-icons {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .social-media-icons li {
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: .8rem;
+    transition: .3s;
+    display: relative;
+    padding-top: 15px;
+  }
+  
+  .social-media-icons li a {
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    top: 10px;
+  }
+  
+  .login {
+    text-align: center;
+    margin-top: 24px;
+    font-size: .8rem;
+    font-family: font-primary;
+  }
+  
+  .login a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: color-primary;
+    transition: .3s;
+  }
+  
+  .login a:hover {
+    color: color-primary-dark;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  .NYA {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.NYA input {
+    padding: 10px;
+    height: 50px;
+
+}
+
+
+  
