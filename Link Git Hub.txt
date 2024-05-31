@@ -1,0 +1,8 @@
+https://github.com/Jorgetano/agencia-viaje.git
+
+en este Link se encuentra el repositorio de la pagina de Agencia de Viaje, el cual consta de 4 parte, la primera es la pagina Principal, la cual muestra 10card de Hoteles con su Imagen, Nombre, Descripción y Ubicación, la cual permite al darle Click, que te envía a una pagina de Google Maps con la cual mostrara la ubicación Exacta, la pagina principal contiene un Botón de Registro y Login, con la cual podrás registrarse o Iniciar sesión, si ya existe el Usuario
+
+se instala Firebase, ya que se conecto con el Login y Registro, para que el usuario se puede registrar y así mismo Iniciar sesión después de registrarse
+
+se instala React-Dom-Router ya que esta nos permite movernos a diferente paginas al darle click a un Botón
+  
